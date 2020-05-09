@@ -1,0 +1,23 @@
+{
+  "name": "vuepress-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gitadd": "git add . && git commit -m \"add vuepress\" ",
+    "git": "npm run gitadd && git push origin master",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LDQ-first/vuepress-test2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LDQ-first/vuepress-test2/issues"
+  },
+  "homepage": "https://github.com/LDQ-first/vuepress-test2#readme"
+}
