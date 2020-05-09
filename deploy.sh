@@ -4,7 +4,7 @@
 set -e 
 
 # 显示生成的文件
-tree docs\.vuepress\dist /F
+ls -al docs\.vuepress\dist /F
 
 # 进入生成的文件夹
 cd docs\.vuepress\dist 
