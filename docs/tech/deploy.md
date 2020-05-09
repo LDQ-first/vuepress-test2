@@ -3,6 +3,5 @@
 
 ## deploy.sh
 
-![deploy.sh](deploy.png)
 
-
+<img :src="$withBase('/deploy.png')" alt="deploy.sh">
