@@ -3,6 +3,6 @@
 
 ## deploy.sh
 
-![deploy.sh](/deploy.png)
+![deploy.sh](deploy.png)
 
 
