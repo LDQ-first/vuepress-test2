@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/vuepress-test2/',
     title: 'xx的博客',
     head: [
         ['link', {rel: 'icon', href: '/avater.png'}]
