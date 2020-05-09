@@ -15,7 +15,7 @@ cd ./docs/.vuepress/dist
 
 # 添加git
 git init
-git add -a 
+git add . 
 git commit -m 'deploy'
 
 # 如果发布到  https://username.github.io
