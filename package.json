@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gitadd": "git add . && git commit -m \"add vuepress\" ",
+    "gitadd": "git add . && git commit -m \"add deploy.sh\" ",
     "git": "npm run gitadd && git push origin master",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
