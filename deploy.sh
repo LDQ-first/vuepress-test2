@@ -4,10 +4,10 @@
 set -e 
 
 # 显示生成的文件
-ls -al docs\.vuepress\dist
+ls -al ./docs/.vuepress/dist
 
 # 进入生成的文件夹
-cd docs\.vuepress\dist 
+cd ./docs/.vuepress/dist 
 
 # 如果是发布到自定义域名
 # echo 'www.yourwebsite.com' > CNAME
