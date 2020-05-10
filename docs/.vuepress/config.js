@@ -2,8 +2,11 @@ module.exports = {
     base: '/vuepress-test2/',
     title: 'xx的博客',
     head: [
-        ['link', {rel: 'icon', href: '/avater.png'}]
+        ['link', {rel: 'icon', href: '/avater.png'}],
+        ['link', {rel: 'manifest', href: '/manifest.json'}],
+        ['link', {rel: 'apple-touch-icon', href: '/spider.png'}],
     ],
+    serviceWorker: true,
     themeConfig: {
         logo: '/avater.png',
         nav: [
